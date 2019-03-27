@@ -1,4 +1,7 @@
 <aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+
+    <!-- Inspired from: http://bobbuzzard.blogspot.com/2018/08/lightning-emp-api-in-winter-19.html -->
+    
     <aura:handler name="init" value="{!this}" action="{!c.init}" />
     <aura:attribute name="sub" type="map" />
     <aura:attribute name="infoStuff" type="map" />
