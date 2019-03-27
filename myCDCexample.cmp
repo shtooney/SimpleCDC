@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:attribute name="sub" type="map" />
+    <aura:attribute name="infoStuff" type="map" />
+    
+    {!v.infoStuff}
+    
+    <lightning:empApi aura:id="empApi" />	
+	<lightning:notificationsLibrary aura:id="notifLib"/>
+</aura:component>
